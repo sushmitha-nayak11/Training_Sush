@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VarDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3505d55c-1762-4c05-9c9c-dc867fcfa1ff</testCaseGuid>
+   <variable>
+      <defaultValue>'Sush'</defaultValue>
+      <description></description>
+      <id>b2af65d6-3de9-4e88-98c3-6adf7159d06b</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+</TestCaseEntity>

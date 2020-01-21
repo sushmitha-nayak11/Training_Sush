@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven,Firefox 72.0,,,2020-01-21 15:25:24,2020-01-21 15:25:57,32.542s,PASSED
+,,,,,,,
+Test Cases/Day2/datadriven,Firefox 72.0,,,2020-01-21 15:25:25,2020-01-21 15:25:42,17.650s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-21 15:25:25,2020-01-21 15:25:32,6.318s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-21 15:25:32,2020-01-21 15:25:36,4.276s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Firefox 72.0,,,2020-01-21 15:25:36,2020-01-21 15:25:36,0.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Firefox 72.0,,,2020-01-21 15:25:36,2020-01-21 15:25:36,0.078s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Firefox 72.0,,,2020-01-21 15:25:36,2020-01-21 15:25:39,2.648s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-21 15:25:39,2020-01-21 15:25:42,3.612s,PASSED
+,,,,,,,
+Test Cases/Day2/datadriven,Firefox 72.0,,,2020-01-21 15:25:42,2020-01-21 15:25:57,14.432s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-21 15:25:42,2020-01-21 15:25:47,4.674s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-21 15:25:47,2020-01-21 15:25:51,4.005s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Firefox 72.0,,,2020-01-21 15:25:51,2020-01-21 15:25:51,0.100s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Firefox 72.0,,,2020-01-21 15:25:51,2020-01-21 15:25:51,0.054s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Firefox 72.0,,,2020-01-21 15:25:51,2020-01-21 15:25:54,2.490s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-21 15:25:54,2020-01-21 15:25:57,3.080s,PASSED

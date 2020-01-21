@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_Day1,Firefox 72.0,,,2020-01-20 17:33:58,2020-01-20 17:35:11,1m - 12.596s,PASSED
+,,,,,,,
+Test Cases/Day1/TC002,Firefox 72.0,,,2020-01-20 17:33:59,2020-01-20 17:34:39,39.772s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-20 17:34:00,2020-01-20 17:34:11,11.481s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 72.0,,,2020-01-20 17:34:11,2020-01-20 17:34:16,4.806s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 72.0,,,2020-01-20 17:34:16,2020-01-20 17:34:17,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 72.0,,,2020-01-20 17:34:17,2020-01-20 17:34:17,0.141s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 72.0,,,2020-01-20 17:34:17,2020-01-20 17:34:17,0.212s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 72.0,,,2020-01-20 17:34:17,2020-01-20 17:34:18,0.762s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Firefox 72.0,,,2020-01-20 17:34:18,2020-01-20 17:34:18,0.427s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Firefox 72.0,,,2020-01-20 17:34:18,2020-01-20 17:34:18,0.305s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Firefox 72.0,,,2020-01-20 17:34:18,2020-01-20 17:34:19,0.312s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar""))",Firefox 72.0,,,2020-01-20 17:34:19,2020-01-20 17:34:19,0.305s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_28""))",Firefox 72.0,,,2020-01-20 17:34:19,2020-01-20 17:34:19,0.285s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""abcdefg"")",Firefox 72.0,,,2020-01-20 17:34:19,2020-01-20 17:34:31,12.086s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 72.0,,,2020-01-20 17:34:31,2020-01-20 17:34:32,0.567s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Firefox 72.0,,,2020-01-20 17:34:32,2020-01-20 17:34:32,0.080s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-20 17:34:32,2020-01-20 17:34:39,6.571s,PASSED
+,,,,,,,
+Test Cases/Day1/TC003_Manual,Firefox 72.0,,,2020-01-20 17:34:39,2020-01-20 17:34:54,15.446s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-20 17:34:39,2020-01-20 17:34:44,4.737s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-20 17:34:44,2020-01-20 17:34:47,3.628s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 72.0,,,2020-01-20 17:34:47,2020-01-20 17:34:47,0.064s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Firefox 72.0,,,2020-01-20 17:34:47,2020-01-20 17:34:47,0.052s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Firefox 72.0,,,2020-01-20 17:34:47,2020-01-20 17:34:50,2.527s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-20 17:34:50,2020-01-20 17:34:54,4.108s,PASSED
+,,,,,,,
+Test Cases/Day1/TC004_script,Firefox 72.0,,,2020-01-20 17:34:54,2020-01-20 17:35:11,16.897s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-20 17:34:54,2020-01-20 17:35:00,5.179s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-20 17:35:00,2020-01-20 17:35:04,4.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 72.0,,,2020-01-20 17:35:04,2020-01-20 17:35:04,0.058s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Firefox 72.0,,,2020-01-20 17:35:04,2020-01-20 17:35:04,0.044s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Firefox 72.0,,,2020-01-20 17:35:04,2020-01-20 17:35:07,2.753s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-20 17:35:07,2020-01-20 17:35:11,4.450s,PASSED

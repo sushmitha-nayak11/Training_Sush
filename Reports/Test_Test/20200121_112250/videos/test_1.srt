@@ -1,0 +1,20 @@
+1
+00:00:00,769 --> 00:00:00,778
+1. openBrowser("")
+
+2
+00:00:07,792 --> 00:00:07,793
+5. navigateToUrl("https://opensource-demo.orangehrmlive.com/")
+
+3
+00:00:11,911 --> 00:00:11,914
+9. setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin")
+
+4
+00:00:12,088 --> 00:00:12,089
+13. setText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), "admin123")
+
+5
+00:00:12,193 --> 00:00:12,196
+17. click(findTestObject("Page_CURA Healthcare Service/button_Login"))
+

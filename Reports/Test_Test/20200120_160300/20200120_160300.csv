@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Test,Firefox 72.0,,,2020-01-20 16:03:03,2020-01-20 16:03:50,47.142s,FAILED
+,,,,,,,
+Test Cases/Day1/TC003_Manual - Copy,Firefox 72.0,,,2020-01-20 16:03:03,2020-01-20 16:03:47,43.818s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-20 16:03:04,2020-01-20 16:03:13,8.591s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-20 16:03:13,2020-01-20 16:03:16,3.498s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 72.0,,,2020-01-20 16:03:16,2020-01-20 16:03:16,0.258s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Firefox 72.0,,,2020-01-20 16:03:16,2020-01-20 16:03:16,0.079s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Firefox 72.0,,,2020-01-20 16:03:16,2020-01-20 16:03:47,30.698s,FAILED

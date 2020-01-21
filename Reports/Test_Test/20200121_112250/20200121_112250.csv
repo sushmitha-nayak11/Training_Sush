@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Test,Firefox 72.0,,,2020-01-21 11:22:53,2020-01-21 11:23:41,48.290s,FAILED
+,,,,,,,
+Test Cases/Day1/Test Failure Report,Firefox 72.0,,,2020-01-21 11:22:53,2020-01-21 11:23:39,45.636s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-21 11:22:54,2020-01-21 11:23:01,7.019s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 72.0,,,2020-01-21 11:23:01,2020-01-21 11:23:06,4.119s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 72.0,,,2020-01-21 11:23:06,2020-01-21 11:23:06,0.175s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Firefox 72.0,,,2020-01-21 11:23:06,2020-01-21 11:23:06,0.104s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Firefox 72.0,,,2020-01-21 11:23:06,2020-01-21 11:23:37,30.707s,FAILED
